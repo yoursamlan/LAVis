@@ -27,3 +27,6 @@ The Lorenz system is dissipative i.e. volumes in phase-space contract under the 
 Lorenz considered the case σ = 10, β = 8/3, ρ = 28 with (x0, y0, z0) = (0, 1, 0).
 After an initial transient, the solution settles into an irregular oscillation that persists as t → ∞ but never repeats exactly. The motion
 is aperiodic.
+\nLorenz discovered that a wonderful structure
+emerges if the solution is visualized as a trajectory in phase space. For instance, when
+x(t) is plotted against z(t), the famous butterfly wing pattern appears.
