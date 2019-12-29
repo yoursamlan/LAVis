@@ -39,9 +39,10 @@ settle onto a thin set that looks like a pair of butterfly wings. We call this a
 
 ## VISUALIZATION
 After enough Mathematical briefings, lets come to the main part of this project, i.e *Visualization*.
-<br/>I have already uploaded an **Youtube Video**. You can watch it by clicking the following Thumbnail.<br/>
+<br/>I have already uploaded an **Youtube Video**. You can watch it by clicking the following [Thumbnail](https://www.youtube.com/watch?v=9QMn-Nwi6BA).<br/><br/>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=9QMn-Nwi6BA
 " target="_blank"><img src="http://img.youtube.com/vi/9QMn-Nwi6BA/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+alt="YouTube" width="240" height="180" border="10" /></a><br>
+</br>You can also use **LAVisu 1.0** web app by clicking [here](bit.ly/LAVisu) 
 
 
