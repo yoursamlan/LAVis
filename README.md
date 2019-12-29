@@ -29,6 +29,6 @@ After an initial transient, the solution settles into an irregular oscillation t
 is aperiodic.
 <br/>Lorenz discovered that a wonderful structure
 emerges if the solution is visualized as a trajectory in phase space. For instance, when
-x(t) is plotted against z(t), the famous butterfly wing pattern appears. Something like this-
+x(t) is plotted against z(t), the famous butterfly wing pattern appears. Something like this-<br/><br/>
 ![Lorenz Attractor](https://github.com/yoursamlan/lavis/blob/master/screenshots/iconLAVisu512.png?raw=true)
 
