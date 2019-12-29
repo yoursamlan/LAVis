@@ -8,9 +8,9 @@ The Lorenz equations were originally derived
 by Saltzman (1962) as a ‘minimalist’ model
 of thermal convection in a box
 ```
-x˙ = σ(y − x) (1)
-y˙ = ρx − y − xz (2)
-z˙ = xy − βz (3)
+x˙ = σ(y − x)           .......(1)
+y˙ = ρx − y − xz        .......(2)
+z˙ = xy − βz            .......(3)
 ```
 where σ (“Prandtl number”), ρ (“Rayleigh
 number”) and β are parameters (> 0). These
