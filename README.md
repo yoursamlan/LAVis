@@ -33,4 +33,7 @@ x(t) is plotted against z(t), the famous butterfly wing pattern appears. Somethi
 ![Lorenz Attractor](https://github.com/yoursamlan/lavis/blob/master/screenshots/iconLAVisu512.png?raw=true)
 <br/><br/>*The trajectory appears to cross itself repeatedly, but that’s just an artifact of projecting the 3-dimensional trajectory onto
 a 2-dimensional plane. In 3-D no crossings occur!*
+The number of circuits made on either side varies unpredictably from one cycle to the next. The sequence of the number of circuits in
+each lobe has many of the characteristics of a random sequence! <br/> When the trajectory is viewed in all 3 dimensions, it appears to
+settle onto a thin set that looks like a pair of butterfly wings. We call this attractor a **strange attractor**.
 
