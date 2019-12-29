@@ -30,7 +30,7 @@ is aperiodic.
 <br/>Lorenz discovered that a wonderful structure
 emerges if the solution is visualized as a trajectory in phase space. For instance, when
 x(t) is plotted against z(t), the famous butterfly wing pattern appears. Something like this-<br/><br/>
-![Lorenz Attractor](https://github.com/yoursamlan/lavis/blob/master/logo.png?raw=true =150x)
+![Lorenz Attractor](https://github.com/yoursamlan/lavis/blob/master/logo.png?raw=true { width: 100px; })
 <br/><br/>*The trajectory appears to cross itself repeatedly, but that’s just an artifact of projecting the 3-dimensional trajectory onto
 a 2-dimensional plane. In 3-D no crossings occur!*
 The number of circuits made on either side varies unpredictably from one cycle to the next. The sequence of the number of circuits in
@@ -44,6 +44,6 @@ After enough Mathematical briefings, lets come to the main part of this project,
 " target="_blank"><img src="http://img.youtube.com/vi/9QMn-Nwi6BA/0.jpg" 
 alt="YouTube" width="240" height="180" border="10" /></a><br>
 </br>You can also use **LAVisu 1.0** web app by clicking [here](bit.ly/LAVis)<br>
-[![LAVisu](https://raw.githubusercontent.com/yoursamlan/lavis/master/LAVis512.ico =50x50)](https://bit.ly/LAVis)
+[![LAVisu](https://raw.githubusercontent.com/yoursamlan/lavis/master/LAVis512.ico { width: 30px; })](https://bit.ly/LAVis)
 
 
