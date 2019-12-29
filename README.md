@@ -9,10 +9,10 @@ by Saltzman (1962) as a ‘minimalist’ model
 of thermal convection in a box
 ```
 x˙ = σ(y − x) (1)
-y˙ = rx − y − xz (2)
-z˙ = xy − bz (3)
+y˙ = ρx − y − xz (2)
+z˙ = xy − βz (3)
 ```
-where σ (“Prandtl number”), r (“Rayleigh
-number”) and b are parameters (> 0). These
+where σ (“Prandtl number”), ρ (“Rayleigh
+number”) and β are parameters (> 0). These
 equations also arise in studies of convection
-and instability in planetary atmospheres, models of lasers and dynamos etc
+and instability in planetary atmospheres, models of lasers and dynamos etc.
