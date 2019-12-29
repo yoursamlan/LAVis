@@ -31,6 +31,6 @@ is aperiodic.
 emerges if the solution is visualized as a trajectory in phase space. For instance, when
 x(t) is plotted against z(t), the famous butterfly wing pattern appears. Something like this-<br/><br/>
 ![Lorenz Attractor](https://github.com/yoursamlan/lavis/blob/master/screenshots/iconLAVisu512.png?raw=true)
-<br/><br/>* The trajectory appears to cross itself repeatedly, but that’s just an artifact of projecting the 3-dimensional trajectory onto
-a 2-dimensional plane. In 3-D no crossings occur! *
+<br/><br/>*The trajectory appears to cross itself repeatedly, but that’s just an artifact of projecting the 3-dimensional trajectory onto
+a 2-dimensional plane. In 3-D no crossings occur!*
 
