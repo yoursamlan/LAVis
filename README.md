@@ -43,7 +43,10 @@ After enough Mathematical briefings, lets come to the main part of this project,
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=9QMn-Nwi6BA
 " target="_blank"><img src="http://img.youtube.com/vi/9QMn-Nwi6BA/0.jpg" 
 alt="YouTube" width="240" height="180" border="10" /></a><br>
-</br>You can also use **LAVisu 1.0** web app by clicking [here](bit.ly/LAVis)<br><br>
+
+## Downloads
 [![LAVisu](https://raw.githubusercontent.com/yoursamlan/lavis/master/LAVis512.ico)](https://bit.ly/LAVis)<br><br>
+</br>You can use **LAVisu 1.0** web app by clicking [here](bit.ly/LAVis)<br>
+
 You can download **Android Version** from [here](https://github.com/yoursamlan/lavis/raw/master/app/LAVis.apk)<br>
 You can download **Windows 32bit Version** from [here](https://github.com/yoursamlan/lavis/raw/master/app/LAVis.exe) 
