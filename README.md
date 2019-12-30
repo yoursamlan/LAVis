@@ -45,7 +45,6 @@ After enough Mathematical briefings, lets come to the main part of this project,
 alt="YouTube" width="240" height="180" border="10" /></a><br>
 </br>You can also use **LAVisu 1.0** web app by clicking [here](bit.ly/LAVis)<br><br>
 [![LAVisu](https://raw.githubusercontent.com/yoursamlan/lavis/master/LAVis512.ico)](https://bit.ly/LAVis)<br><br>
-
-
+You can download **Android Version** from [here]([![LAVisu](https://raw.githubusercontent.com/yoursamlan/lavis/master/LAVis512.ico)](https://bit.ly/LAVis)<br><br>) [![LAVisu](https://raw.githubusercontent.com/yoursamlan/lavis/master/LAVis512.ico)]([![LAVisu](https://raw.githubusercontent.com/yoursamlan/lavis/master/LAVis512.ico)](https://bit.ly/LAVis)<br><br>)<br><br>
 
 
