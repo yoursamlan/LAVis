@@ -42,7 +42,9 @@ After enough Mathematical briefings, lets come to the main part of this project,
 <br/>I have already uploaded an **Youtube Video**. You can watch it by clicking the following [Thumbnail](https://www.youtube.com/watch?v=9QMn-Nwi6BA).<br/><br/>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=9QMn-Nwi6BA
 " target="_blank"><img src="http://img.youtube.com/vi/9QMn-Nwi6BA/0.jpg" 
-alt="YouTube" width="240" height="180" border="10" /></a><br>
+alt="YouTube" width="240" height="180" border="10" /></a><br><br>
+Using LAVis 1.0 yoc can visualize such type of 3D image.<br><br>
+![screenRec](https://github.com/yoursamlan/lavis/blob/master/screenshots/screenrec.gif?raw=true)
 
 ## Downloads
 [![LAVisu](https://raw.githubusercontent.com/yoursamlan/lavis/master/LAVis512.ico)](https://bit.ly/LAVis)<br><br>
