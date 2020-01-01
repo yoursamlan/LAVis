@@ -3,6 +3,15 @@ LAVis stands for [Lorenz Attractor Visualizer](https://yoursamlan.github.io/lavi
 
 ![Screenshot of LAVis](https://github.com/yoursamlan/lavis/blob/master/screenshots/screenshot1.PNG?raw=true)
 
+### Update
+
+Lavis 2.0 has just arrived with--
+1. Improved Performance
+2. LITE and DARK mode supported UI
+3. Fixed Bugs
+![Screenshot of LAVis2.0](https://github.com/yoursamlan/lavis/blob/master/screenshots/Lavis2.0.PNG?raw=true)
+
+
 ## Introduction to Lorenz Equations
 The Lorenz equations, named after famous scientist cum mathematician Edward Norton Lorenz, were originally derived
 by Saltzman (1962) as a ‘minimalist’ model of thermal convection in a box
