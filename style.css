@@ -1,6 +1,6 @@
 body, html {
     font-family: sans-serif;
-    background: #000;
+    background: #02021c;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -81,7 +81,7 @@ h4{
     position: absolute;
     top: 176px;;
     left:0;
-    border:1px solid black;
+
 }
 #controls h3{
     color:wheat;
@@ -119,4 +119,21 @@ h4{
 }
 input[type=range] {
   width: 50%;
+}
+
+.btn {
+  background-color: #fff;
+  color:#000;
+  margin-left:50px;
+  padding: 7px 14px;
+  border-radius: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border:2px solid black;
+  display: inline-block;
+}
+
+#chead{
+    
+    display: flex;
 }
