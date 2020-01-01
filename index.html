@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>LAVis</title>
+      <script src="js/removeBanner.js"></script>
+    <title>Lorenz System</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="lorenz.css"/>
     <script src="js/lorenz.js" defer></script>
     <script src="js/controls.js" defer></script>
     <script src="js/main.js" defer></script>
-    <script src="js/removeBanner.js"></script>
   </head>
   <body>
     <div id="menu">
       
           <div id="header">
-              <img src="logo1.png">
-          <h1>LAVis 1.0</h1>
+              <img src="logo.png">
+          <h1>LAVis 2.0</h1>
               <!--h4>LORENZ ATTRACTOR VISUALIZER BY</h4-->
             <h2>Amlan Saha Kundu</h2>
           </div>
         <div id="controls">
+            <div id="chead">
         <h3 style="text-align:left;
                            padding-left: 20px;
                            margin-left: 20px;
-                   border:1px solid white;">CONTROLS</h3>
+                   border:1px solid black;">CONTROLS</h3>
+            <a href="./lite/index.html">
+<button class="btn success">Lite Mode</button>
+              </div>  
+</a>
         <ul>
             <!--li><h2 id="hfunc">MOUSE & KEYBOARD </h2></li-->
         <li><kbd id="kbdi"></kbd>
