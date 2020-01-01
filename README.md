@@ -1,5 +1,5 @@
 # LAVis
-LAVis stands for [Lorenz Attractor Visualizer](https://yoursamlan.github.io/lavis/). 
+LAVis stands for [Lorenz Attractor Visualizer](https://yoursamlan.github.io/lavisloader). 
 
 ![Screenshot of LAVis](https://github.com/yoursamlan/lavis/blob/master/screenshots/screenshot1.PNG?raw=true)
 
