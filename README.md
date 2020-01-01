@@ -9,6 +9,7 @@ Lavis 2.0 has just arrived with--
 1. Improved Performance
 2. LITE and DARK mode supported UI
 3. Fixed Bugs
+<br/>
 ![Screenshot of LAVis2.0](https://github.com/yoursamlan/lavis/blob/master/screenshots/LAVis2.0.PNG?raw=true)
 
 
