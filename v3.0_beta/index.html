@@ -30,7 +30,7 @@
 						<button class="btn success">Lite Mode</button-->
 				</div>
 				</a>
-				<ul>
+				<ul style="margin-left: 100px;">
 					<li>
 						OPTION &nbsp;&nbsp;
 						<select id="preset">
@@ -119,14 +119,24 @@
 				<div id="chart"></div>
 				<script>
 					var layout = {
+                    color: '#ffffff',
+                    title: {
+                    text:'Real Time x,y,z vs t Graph for Lorenz Equation',
+                    font: {
+                    color: 'wheat'}},
+                    xaxis: {
+                    title: 'Time(t) --> ',
+                    color: '#ffffff'},
+                    yaxis: {
+                    color: '#ffffff'},
 					autosize: false,
 					width: 600,
-					height: 280,
+					height: 320,
 					margin: {
 					l: 30,
-					r: 0,
-					b: 0,
-					t: 0,
+					r: 10,
+					b: 20,
+					t: 30,
 					pad: 0,
 					},
 					paper_bgcolor: '#010101',
@@ -147,16 +157,23 @@
 					}
 					Plotly.plot('chart', [{
 					y: [getDatax(), getDatax(), getDatax(), getDatax(), getDatax(), getDatax()],
-					type: 'line'
+					type: 'line',
+                    name: 'x',
+                    color:'#ffffff',
 					},
 					        
 					{
 					y: [getDatay(), getDatay(), getDatay(), getDatay(), getDatay()],
-					type: 'line'
+					type: 'line',
+                    name: 'y',
+                    font: {
+                        color: '#fff'
+                    },
 					},
 					{
 					y: [getDataz(), getDataz(), getDataz(), getDataz(), getDataz()],
-					type: 'line'
+					type: 'line',
+                    name: 'z'
 					}],layout);
 					var cnt = 0;
 					setInterval(function() {
