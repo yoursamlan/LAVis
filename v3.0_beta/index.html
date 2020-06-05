@@ -2,32 +2,168 @@
 <html>
 	<head>
 		<!--script src="js/removeBanner.js"></script-->
-		<title>LAVis 3.0 by Amlan</title>
+		<title>LAVis 3.0 by Amlan Saha Kundu.</title>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 		<link rel="stylesheet" href="lorenz.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
 		<script src="js/lorenz.js" defer></script>
-		<script src="js/test.js" defer></script>
 		<script src="js/controls.js" defer></script>
 		<script src="js/main.js" defer></script>
 		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="js/alert.js" defer></script>
 	</head>
 	<body>
+        <div id="open_screen_dialog" title="Welcome">
+            <p> Welcome to <b style="color: rebeccapurple">Lorenz Attractor Visualizer</b> a.k.a <b>LAVis</b> ver 3.0 .</p>
+            
+            <p>The main AIM of this web application is to <b style="color: blue">visualize the chaotic property of Lorenz Attractor and the effect of parameters to the solution.</b>            
+            </p>
+            
+            <p>            
+            First, select <b style="color: red">Initialize</b> from the <b style="color: purple">OPTION</b> menu. <b>Note down</b> the values of state variables x, y, z and the parameters &sigma;, &beta;, and &rho; as the <u>inital set of values.</u> After noting down, select <b><b style="color: red">Visualization</b> from the <b style="color: purple">OPTION</b> menu to simulate the Solutions and the Attractor.
+            </p>
+            
+            
+            
+        <p>
+            If you have any query or need any assistance regarding this project or the application, please feel free to click <i class="material-icons">info</i> and  <i class="material-icons">help</i> button from top right corner of this app.
+            </p>
+          <p> Thank you.</p>
+            <br>
+             
+            <p>
+            Please use 1080p [1920x1080] Monitor for best viewing experience.
+            </p>
+        </div>
+        <div id="info" title="Info">
+    <pre id="info_format">
+    <b>Name</b>               : Lorenz Attractor Visualizer [LAVis]<br>
+    <b>Version</b>            : 3.0<br>
+    <b>Author</b>             : Amlan Saha Kundu<br>
+    <b>License</b>            : Apache 2.0<br>
+    <b>Source-code</b> : <a href="https://github.com/yoursamlan/lavis">Visit Repository</a><br>
+    <b>Project</b>            : <a href="https://github.com/yoursamlan/lavis/raw/master/Dissertation.pdf">Download PDF</a><br>
+    <b>Contact</b>          : <a href="mailto:dev.amlan.99@gmail.com">Send Email</a><br>
+            <!--img src="https://avatars3.githubusercontent.com/u/33586885?s=460&u=f0b762ddf4387a450d267049d4e840cccd4dce24&v=4"-->
+    </pre>
+            <p>
+            What's NEW in v3.0?<br><br>
+                <b style="color: green">Updation</b>
+                <ul style="color: green">
+                    <li>Adding real time x,y,z vs t graph plot for better understanding.</li>
+                    <li>New compact UI</li>
+                    <li>Both of the graphs now can be saved.</li>
+                    <li>Contact support</li>
+                    <li>New Info section</li>
+                    <li>Performance improvement</li>
+                    <li>Minor bug fixing</li>
+                </ul>
+             <b style="color: red">Deletion</b>
+                <ul style="color: red">
+                    <li>Lite Mode has been removed</li>
+                    <li>Auto Rotation is DISABLED for better performance.</li>
+                </ul>
+            
+            </p>
+        </div>
+        
+        <div id="help" title="Help">
+        <p>
+            First, select <b style="color: red">Initialize</b> from the <b style="color: purple">OPTION</b> menu. <b>Note down</b> the values of state <br> variables x, y, z and the parameters &sigma;, &beta;, and &rho; as the <u>inital set of values.</u><br> After noting down, select <b><b style="color: red">Visualization</b> from the <b style="color: purple">OPTION</b> menu to<br> simulate the Solutions and the Attractor.
+        </p>
+        <p>
+        You can use following keys to control the visualization.
+        </p>
+
+    <table class="tg">
+    <thead>
+      <tr>
+        <th class="tg-xxld" colspan="2"><b>MOUSE &amp; KEYBOARD</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tg-gmla">( left-click + drag )</td>
+        <td class="tg-gmla">Rotate X-Y axes</td>
+      </tr>
+      <tr>
+        <td class="tg-gmla">( middle-click + drag )</td>
+        <td class="tg-gmla">Translate X-Y axes</td>
+      </tr>
+      <tr>
+        <td class="tg-gmla">( shift + click + drag )</td>
+        <td class="tg-gmla">Rotate / Translate Z axis</td>
+      </tr>
+      <tr>
+        <td class="tg-gmla">( mousewheel )</td>
+        <td class="tg-gmla">Zoom in / Zoom out</td>
+      </tr>
+      <tr>
+        <td class="tg-gmla">( spacebar )</td>
+        <td class="tg-gmla">Pause / Play</td>
+      </tr>
+      <tr>
+        <td class="tg-xxld" colspan="2"><b>KEYBOARD</b></td>
+      </tr>
+      <tr>
+        <td class="tg-gmla">a</td>
+        <td class="tg-gmla">Add solution with random initial value</td>
+      </tr>
+      <tr>
+        <td class="tg-gmla">x</td>
+        <td class="tg-gmla">Clear all solutions</td>
+      </tr>
+      <tr>
+        <td class="tg-gmla">F5</td>
+        <td class="tg-gmla">Reset to Default</td>
+      </tr>
+      <tr>
+        <td class="tg-gmla">h</td>
+        <td class="tg-gmla">Toggle head (point) visibility</td>
+      </tr>
+      <tr>
+        <td class="tg-gmla">[</td>
+        <td class="tg-gmla">Decrease tail length</td>
+      </tr>
+      <tr>
+        <td class="tg-gmla">]</td>
+        <td class="tg-gmla">Increase tail length</td>
+      </tr>
+    </tbody>
+    </table>
+            <p>
+            The Controls on the Graph are self-explanatory. 
+            </p>
+        </div>
+        
 		<div id="menu">
+           
 			<div id="header">
-				<img src="logo.png">
-				<h1>LAVis 3.0 [beta]</h1>
-				<!--h4>LORENZ ATTRACTOR VISUALIZER BY</h4-->
-				<h2>Amlan Saha Kundu</h2>
-				<!--input id="btnH" type="button" value="h" onclick="input(h);"-->
+                <div id = "logo">
+                <img src="logo.png">
+                </div>
+				<div id = "title">
+                <h1>LAVis 3.0 </h1>
+                <h2>Amlan Saha Kundu</h2>
+                </div>
+				<div id = "title_button">
+                 <button id = "infobtn"><i class="material-icons">info</i></button>
+                 <button id = "helpbtn"><i class="material-icons">help</i></button>
+                </div>
+				
 			</div>
 			<div id="controls">
 				<div id="chead">
 					<h3 style="text-align:center;">
 						CONTROLS
 					</h3>
-					<li>&nbsp;</li>
-					<!--a href="./lite/index.html">
-						<button class="btn success">Lite Mode</button-->
+					<li style="color: #000">&nbsp;</li>
 				</div>
 				</a>
 				<ul style="margin-left: 100px;">
@@ -57,50 +193,11 @@
 						<label>&rho; = <span id="rho-label"></span></label>
 					</li>
 				</ul>
-				<!--ul>
-					<!--li><h2 id="hfunc">MOUSE & KEYBOARD </h2></li>
-					<li><kbd id="kbdi"></kbd>
-					<label>( left-click + drag )  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label><label id="func">Rotate X-Y axes</label>
-					</li>
-					<li><kbd id="kbdi"></kbd>
-					<label>( middle-click + drag )  &nbsp;</label><label id="func"> Translate X-Y axes</label>
-					</li>
-					<li><kbd id="kbdi"></kbd>
-					<label>( shift + click + drag )  &nbsp;&nbsp;&nbsp; </label><label id="func">Rotate / Translate Z axis</label>
-					</li>
-					<li><kbd id="kbdi"></kbd>
-					<label> ( mousewheel )  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; </label><label id="func">Zoom in / Zoom out</label>
-					</li>
-					<li><kbd id="kbdi"></kbd>
-					<label>( spacebar ) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><label id="func">Pause / Play</label>
-					</li>
-					<!--li><h2 id="hfunc">KEYBOARD ONLY </h2></li>
-					<li>&nbsp;</li>
-					<li><kbd id="kbdi">&nbsp;a</kbd>
-					<label id="func"> &nbsp;&nbsp;&nbsp;&nbsp;Add solution with random initial value</label>
-					</li>
-					<!--li><kbd id="kbdi">c</kbd>
-					<label>clone a solution with perturbation</label>
-					</li>
-					<li><kbd id="kbdi">&nbsp;x</kbd>
-					<label id="func"> &nbsp;&nbsp;&nbsp;&nbsp;Clear all solutions</label>
-					</li>
-					<li><kbd id="kbdi"> F5</kbd>
-					<label id="func"> &nbsp;&nbsp;&nbsp;&nbsp;Reset to Default</label>
-					</li>
-					<li><kbd id="kbdi">&nbsp;h</kbd>
-					<label id="func"> &nbsp;&nbsp;&nbsp;&nbsp;Toggle head (point) visibility</label>
-					</li>
-					<li><kbd id="kbdi">&nbsp;[</kbd>
-					<label id="func"> &nbsp;&nbsp;&nbsp;&nbsp;Decrease tail length</label>
-					</li>
-					<li><kbd id="kbdi">&nbsp;]</kbd>
-					<label id="func"> &nbsp;&nbsp;&nbsp;&nbsp;Increase tail length</label>
-					</li-->
+				
 				<h3 style="text-align:center;
 					padding-left: 00px;
 					margin-left: 0px;">
-					Real time Solution
+					Real time SOLUTION
 				</h3>
 				<ul style="text-align:center;
 					margin: 20px;">
@@ -121,11 +218,11 @@
 					var layout = {
                     color: '#ffffff',
                     title: {
-                    text:'Real Time x,y,z vs t Graph for Lorenz Equation',
+                    text:'Graph:',
                     font: {
                     color: 'wheat'}},
                     xaxis: {
-                    title: 'Time(t) --> ',
+                    title: '',
                     color: '#ffffff'},
                     yaxis: {
                     color: '#ffffff'},
@@ -202,6 +299,8 @@
 					}
 					}, 15);
 				</script>
+                
+                
 			</div>
 		</div>
 		<canvas id="lorenz"></canvas>
