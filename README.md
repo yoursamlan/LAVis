@@ -76,6 +76,6 @@ Using LAVis 1.0 yoc can visualize such type of 3D image.<br><br>
 
 ## Downloads
 [![LAVisu](https://raw.githubusercontent.com/yoursamlan/lavis/master/LAVis512.ico)](https://bit.ly/LAVis)<br><br>
-</br>You can use **LAVis 2.0** web app by clicking [here](https://yoursamlan.github.io/lavisloader)<br>
+</br>You can use **LAVis 3.0** web app by clicking [here](https://yoursamlan.github.io/lavisloader)<br>
 You can download **Android Version (LAVis.apk)** from [here](https://github.com/yoursamlan/lavis/raw/master/app/LAVis.apk)<br>
 You can download **Windows 32bit Version (LAVis.exe)** from [here](https://github.com/yoursamlan/lavis/raw/master/app/LAVis.exe) 
