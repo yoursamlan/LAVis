@@ -25,6 +25,7 @@ Updation
 5. New Info section
 6. Performance improvement
 7. Minor bug fixing
+
 Deletion
 1. Lite Mode has been removed
 2. Auto Rotation is DISABLED for better performance.
