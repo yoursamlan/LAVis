@@ -13,7 +13,23 @@ Lavis 2.0 has just arrived with--
 
 ![Screenshot of LAVis2.0](https://github.com/yoursamlan/lavis/blob/master/screenshots/LAVis2.0.PNG?raw=true)
 
+### Update 
 
+Lavis 3.0 has come with more attractive features. Let's see its changelogs--
+
+Updation
+1. Adding real time solution and x,y,z vs t graph plot for better understanding.
+2. New compact and user-friendly UI
+3. Both of the graphs now can be saved.
+4. Help and contact support
+5. New Info section
+6. Performance improvement
+7. Minor bug fixing
+Deletion
+1. Lite Mode has been removed
+2. Auto Rotation is DISABLED for better performance.
+
+![Screenshot of LAVis3.0](https://github.com/yoursamlan/lavis/blob/master/screenshots/lavis3.PNG?raw=true)
 ## Introduction to Lorenz Equations
 The Lorenz equations, named after famous scientist cum mathematician Edward Norton Lorenz, were originally derived
 by Saltzman (1962) as a ‘minimalist’ model of thermal convection in a box
