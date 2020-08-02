@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <script src="js/removeBanner.js"></script>
+    <title>LAVis 2.0</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="js/lorenz.js" defer></script>
+    <script src="js/controls.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div id="menu">
+      
+          <div id="header">
+              <img src="logo.png">
+          <h1>LAVis 2.0</h1>
+              <!--h4>LORENZ ATTRACTOR VISUALIZER BY</h4-->
+            <h2>Amlan Saha Kundu</h2>
+          </div>
+        <div id="controls">
+            <div id="chead">
+        <h3 style="text-align:left;
+                           padding-left: 20px;
+                           margin-left: 20px;
+                   border:1px solid black;">CONTROLS</h3>
+            <a href="./lite/index.html">
+<button class="btn success">Lite Mode</button>
+              </div>  
+</a>
+        <ul>
+            <!--li><h2 id="hfunc">MOUSE & KEYBOARD </h2></li-->
+        <li><kbd id="kbdi"></kbd>
+            <label>( left-click + drag )  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label><label id="func">Rotate X-Y axes</label>
+        </li>
+        <li><kbd id="kbdi"></kbd>
+          <label>( middle-click + drag )  &nbsp;</label><label id="func"> Translate X-Y axes</label>
+        </li>
+        <li><kbd id="kbdi"></kbd>
+          <label>( shift + click + drag )  &nbsp;&nbsp;&nbsp; </label><label id="func">Rotate / Translate Z axis</label>
+        </li>
+        <li><kbd id="kbdi"></kbd>
+          <label> ( mousewheel )  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; </label><label id="func">Zoom in / Zoom out</label>
+        </li>
+        <li><kbd id="kbdi"></kbd>
+          <label>( spacebar ) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><label id="func">Pause / Play</label>
+        </li>
+            <!--li><h2 id="hfunc">KEYBOARD ONLY </h2></li-->
+            <li>&nbsp;</li>
+        <li><kbd id="kbdi">&nbsp;a</kbd>
+          <label id="func"> &nbsp;&nbsp;&nbsp;&nbsp;Add solution with random initial value</label>
+        </li>
+        <!--li><kbd id="kbdi">c</kbd>
+          <label>clone a solution with perturbation</label>
+        </li-->
+        <li><kbd id="kbdi">&nbsp;x</kbd>
+          <label id="func"> &nbsp;&nbsp;&nbsp;&nbsp;Clear all solutions</label>
+        </li>
+            <li><kbd id="kbdi"> F5</kbd>
+          <label id="func"> &nbsp;&nbsp;&nbsp;&nbsp;Reset to Default</label>
+        </li>
+        <li><kbd id="kbdi">&nbsp;h</kbd>
+          <label id="func"> &nbsp;&nbsp;&nbsp;&nbsp;Toggle head (point) visibility</label>
+        </li>
+        <li><kbd id="kbdi">&nbsp;[</kbd>
+          <label id="func"> &nbsp;&nbsp;&nbsp;&nbsp;Decrease tail length</label>
+        </li>
+        <li><kbd id="kbdi">&nbsp;]</kbd>
+          <label id="func"> &nbsp;&nbsp;&nbsp;&nbsp;Increase tail length</label>
+        </li>
+          <li>&nbsp;</li>  
+        </li>
+            <li>&nbsp;</li>
+            <li>VISUALIZATION &nbsp;&nbsp;
+          <select id="preset">
+            <option disabled selected> -- click here to select-- </option>
+            <option value="chaos">Chaos</option>
+            <option value="gentle">Rotation</option>
+          </select>
+        </li>
+            <li>&nbsp;</li>
+            <li>&nbsp;</li>
+        <li>
+          <input id="length" type="range" min="2" max="15" step="1"/>
+          <label>Tail length = <span id="length-label"></span></label>
+        </li>
+        <li>
+          <input id="sigma" type="range" min="-1" max="20" step="0.01"/>
+          <label>&sigma; = <span id="sigma-label"></span></label>
+        </li>
+        <li>
+          <input id="beta" type="range" min="0" max="20" step="0.01"/>
+          <label>&beta; = <span id="beta-label"></span></label>
+        </li>
+        <li>
+          <input id="rho" type="range" min="0" max="300" step="0.01"/>
+          <label>&rho; = <span id="rho-label"></span></label>
+        </li>
+            <li>&nbsp;</li>
+            <li>
+        </li>
+      </ul>
+        </div>
+      <div id="stats"></div>
+    </div>
+    <canvas id="lorenz"></canvas>
+  </body>
+</html>

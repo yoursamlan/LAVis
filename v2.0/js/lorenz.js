@@ -167,15 +167,11 @@ Lorenz.create_index_array = function(gl, length) {
  * @returns {number[3]}
  */
 Lorenz.generate = function() {
-    
-    var g1 = (Math.random() - 0.5) * 50;
-    var g2 = (Math.random() - 0.5) * 50;
-    var g3 = (Math.random() - 0.5) * 50;
-    
-    var g = [g1, g2, g3];
-    return g;
-    console.log(g)
-
+    return [
+        (Math.random() - 0.5) * 50,
+        (Math.random() - 0.5) * 50,
+        (Math.random() - 0.5) * 50,
+    ];
 };
 
 /**
@@ -212,7 +208,6 @@ Lorenz.color = function(i) {
  * @param {!number}    ρ
  * @returns {undefined}
  */
-
 Lorenz.lorenz = function(s, dt, σ, β, ρ) {
     function dx(x, y, z) { return σ * (y - x); }
     function dy(x, y, z) { return x * (ρ - z) - y; }
@@ -253,21 +248,6 @@ Lorenz.lorenz = function(s, dt, σ, β, ρ) {
     s[0] = x + (k1dx + 2*k2dx + 2*k3dx + k4dx) * dt / 6;
     s[1] = y + (k1dy + 2*k2dy + 2*k3dy + k4dy) * dt / 6;
     s[2] = z + (k1dz + 2*k2dz + 2*k3dz + k4dz) * dt / 6;
-    
-    /*
-    console.log(k1dx)
-    console.log(k1dy)
-    console.log(k1dz)
-    */
-    /*console.log(s)
-    var globalVariable={
-       coOrd: s
-    };*/
-    //document.write=(s);
-    //console.log(s);
-    document.getElementById("output_x").innerHTML=s[0];
-    document.getElementById("output_y").innerHTML=s[1];
-    document.getElementById("output_z").innerHTML=s[2];
 };
 
 /**
